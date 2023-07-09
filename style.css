@@ -1,0 +1,73 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#createNewMatrixButton{
+    margin:2px;
+    background-color: rgb(209, 83, 186);
+    font-size:20px;
+    text-align:center;
+    color:white;
+    border-radius:15px;
+}
+
+#openGame{
+    display:none;
+
+}
+
+.openGame {
+    display:flex;
+    justify-content: center;
+}
+
+.selectStart{
+    margin:2px;
+    background-color: yellow;
+    width:80px;
+    height:30px;
+    font-size:20px;
+    text-align:center;
+    color:black;
+    border-radius:15px;
+}
+
+.gameStart{
+
+    margin:2px;
+    background-color: green;
+    width:80px;
+    height:30px;
+    font-size:20px;
+    text-align:center;
+    color:white;
+    border-radius:15px;
+}
+#createNewMatrixDiv{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttons{
+display:none;
+}
+
+.direction{
+    border-radius:15px;
+    background:#E43916;
+    color:white;
+    width:60px;
+    height:40px;
+    margin:5px
+
+}
+#clear{
+    display:none
+}
